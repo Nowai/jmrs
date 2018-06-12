@@ -1,12 +1,24 @@
 # jmrs
 
+<p>
+    <a href="https://github.com/Nowai/muimp/blob/master/LICENSE">
+       <img src="https://img.shields.io/badge/license-MIT-blue.svg"> 
+    </a>
+    <a href="https://github.com/Nowai/RiekiMusic/tree/master/build">
+        <img src="https://img.shields.io/badge/build-passing-green.svg"> 
+    </a>
+    <a href="">
+        <img src="https://img.shields.io/badge/version-1.2-lightgrey.svg"> 
+    </a>
+</p>
+
 ## Java Music REST Service
 
 JMRS is a small Music REST service written in Java 8 utilizing Spring Boot. It allows you to access you local music files through a REST interface either locally or via the web. Specify some directories and jmrs will scan it for music files, parse meta data, create a database and launch a web server providing a REST interface to query your music.   
 
 ## Building
 
-Requires git and maven >3.5v.
+Requires git, maven >3.5v and Java >8 sdks.
 
 ```git clone https://github.com/Nowai/jmrs```
 
